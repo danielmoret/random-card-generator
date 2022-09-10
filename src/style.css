@@ -82,7 +82,9 @@ input:focus {
 }
 
 .bottom-suit {
-  justify-content: flex-end;
+  justify-content: flex-start;
+  margin-bottom: 6px;
+  transform: rotate(180deg)
 }
 
 .button {
