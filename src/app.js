@@ -19,7 +19,7 @@ window.onload = function() {
   let width = document.querySelector("#width");
   let height = document.querySelector("#height");
 
-  //Permítele al usuario especificar el width y height de la carta
+  //Permite al usuario especificar el width y height de la carta
   dimensionInput.addEventListener("keyup", event => {
     if (event.key === "Enter" && regex.test(width.value)) {
       card.style.width = `${width.value}px`;
